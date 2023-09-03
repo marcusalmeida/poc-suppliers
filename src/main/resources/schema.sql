@@ -1,0 +1,1 @@
+create table orders (id int primary key auto_increment , sales_order varchar(255), sku varchar(255));

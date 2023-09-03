@@ -1,0 +1,1 @@
+ docker run -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin --name keycloak -p 8080:8080 --mount type=bind,source=/home/marcus/tmp/keycloak/keycloak-theme,target=/opt/keycloak/themes/mytheme quay.io/keycloak/keycloak:latest start-dev
